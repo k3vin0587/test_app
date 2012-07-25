@@ -70,7 +70,7 @@ describe "Static pages" do
 
     	it "should have the right title" do
     		visit '/static_pages/contact'
-    		page.should have_selector('title', :text => " | Contact Us")
+    		page.should have_selector('title', :text => " | Contact")
     	end
     end
 
